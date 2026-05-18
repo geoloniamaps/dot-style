@@ -3,13 +3,16 @@ type: line
 source: geolonia
 source-layer: water
 minzoom: 10
+layout:
+  line-cap: butt
+  line-join: miter
 paint:
-  line-color: '#205090'
+  line-color: '#183060'
   line-width:
     stops:
       - - 5
-        - 1
+        - 0.5
       - - 10
-        - 2
+        - 1
       - - 15
-        - 3
+        - 1.5

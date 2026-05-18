@@ -5,17 +5,17 @@ source-layer: building
 minzoom: 15
 layout:
   line-cap: butt
-  line-join: bevel
+  line-join: miter
 paint:
-  line-color: '#804820'
+  line-color: '#603018'
   line-width:
     stops:
-      - - 14
-        - 1
+      - - 15
+        - 0.8
       - - 16
-        - 1.5
+        - 1
       - - 18
-        - 2
+        - 1.5
   line-opacity:
     stops:
       - - 14

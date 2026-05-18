@@ -17,23 +17,23 @@ filter:
     - motorway
 layout:
   line-cap: butt
-  line-join: bevel
+  line-join: miter
 paint:
-  line-color: '#584828'
+  line-color: '#403018'
   line-width:
     - interpolate
     - - exponential
       - 0.9
     - - zoom
     - 6
-    - 1
+    - 0.8
     - 12
-    - 2.5
+    - 2
     - 14
-    - 6
+    - 5
     - 16
-    - 16
+    - 14
     - 18
-    - 24
+    - 22
     - 20
-    - 150
+    - 145

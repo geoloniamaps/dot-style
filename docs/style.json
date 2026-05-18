@@ -14,7 +14,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#b0d890"
+        "background-pattern": "pattern-background"
       }
     },
     {
@@ -71,21 +71,25 @@
       "source": "geolonia",
       "source-layer": "water",
       "minzoom": 10,
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "miter"
+      },
       "paint": {
-        "line-color": "#205090",
+        "line-color": "#183060",
         "line-width": {
           "stops": [
             [
               5,
-              1
+              0.5
             ],
             [
               10,
-              2
+              1
             ],
             [
               15,
-              3
+              1.5
             ]
           ]
         }
@@ -144,19 +148,19 @@
       "minzoom": 13,
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#388820",
+        "line-color": "#2a6818",
         "line-width": {
           "stops": [
             [
               10,
-              1
+              0.5
             ],
             [
               15,
-              2
+              1.5
             ]
           ]
         }
@@ -308,10 +312,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#908068",
+        "line-color": "#705838",
         "line-width": [
           "interpolate",
           [
@@ -323,11 +327,11 @@
           13.5,
           0,
           14,
-          4,
+          3,
           16,
-          10,
+          8,
           20,
-          20
+          18
         ]
       }
     },
@@ -356,10 +360,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#706048",
+        "line-color": "#504028",
         "line-width": [
           "interpolate",
           [
@@ -370,17 +374,17 @@
             "zoom"
           ],
           6,
-          1,
+          0.8,
           12,
-          2,
+          1.8,
           14,
-          5,
+          4.5,
           16,
-          14,
+          12,
           18,
-          22,
           20,
-          150
+          20,
+          145
         ]
       }
     },
@@ -411,10 +415,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#987818",
+        "line-color": "#785010",
         "line-width": [
           "interpolate",
           [
@@ -425,17 +429,17 @@
             "zoom"
           ],
           5,
-          1,
+          0.8,
           6,
-          1,
+          0.8,
           14,
-          5,
+          4.5,
           16,
-          14,
+          12,
           18,
-          22,
           20,
-          150
+          20,
+          145
         ]
       }
     },
@@ -763,10 +767,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#584828",
+        "line-color": "#403018",
         "line-width": [
           "interpolate",
           [
@@ -777,17 +781,17 @@
             "zoom"
           ],
           6,
-          1,
+          0.8,
           12,
-          2.5,
+          2,
           14,
-          6,
+          5,
           16,
-          16,
+          14,
           18,
-          24,
+          22,
           20,
-          150
+          145
         ]
       }
     },
@@ -878,23 +882,23 @@
       "minzoom": 15,
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#804820",
+        "line-color": "#603018",
         "line-width": {
           "stops": [
             [
-              14,
-              1
+              15,
+              0.8
             ],
             [
               16,
-              1.5
+              1
             ],
             [
               18,
-              2
+              1.5
             ]
           ]
         },

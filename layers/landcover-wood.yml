@@ -8,5 +8,4 @@ filter:
   - class
   - wood
 paint:
-  fill-color: '#308028'
-  fill-opacity: 0.7
+  fill-pattern: pattern-forest

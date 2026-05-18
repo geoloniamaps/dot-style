@@ -8,5 +8,4 @@ filter:
   - class
   - grass
 paint:
-  fill-color: '#70c048'
-  fill-opacity: 0.7
+  fill-pattern: pattern-grass

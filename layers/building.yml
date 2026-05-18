@@ -4,7 +4,7 @@ source: geolonia
 source-layer: building
 minzoom: 13
 paint:
-  fill-color: '#d08050'
+  fill-pattern: pattern-building
   fill-opacity:
     stops:
       - - 13

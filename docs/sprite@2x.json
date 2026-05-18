@@ -40,5 +40,12 @@
     "x": 160,
     "y": 0,
     "pixelRatio": 2
+  },
+  "pattern-background": {
+    "width": 32,
+    "height": 32,
+    "x": 192,
+    "y": 0,
+    "pixelRatio": 2
   }
 }

@@ -14,7 +14,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#b0d890"
+        "background-pattern": "pattern-background"
       }
     },
     {

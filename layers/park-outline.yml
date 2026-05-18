@@ -2,15 +2,15 @@ id: park-outline
 type: line
 source: geolonia
 source-layer: park
-minzoom: 13
+minzoom: 12
 layout:
   line-cap: butt
-  line-join: bevel
+  line-join: miter
 paint:
-  line-color: '#388820'
+  line-color: '#2a6818'
   line-width:
     stops:
       - - 10
-        - 1
+        - 1.5
       - - 15
-        - 2
+        - 3

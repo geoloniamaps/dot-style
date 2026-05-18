@@ -18,9 +18,9 @@ filter:
     - track
 layout:
   line-cap: butt
-  line-join: bevel
+  line-join: miter
 paint:
-  line-color: '#908068'
+  line-color: '#705838'
   line-width:
     - interpolate
     - - linear
@@ -28,8 +28,8 @@ paint:
     - 13.5
     - 0
     - 14
-    - 4
+    - 5
     - 16
-    - 10
+    - 12
     - 20
-    - 20
+    - 22

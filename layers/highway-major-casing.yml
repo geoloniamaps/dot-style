@@ -17,23 +17,23 @@ filter:
     - trunk
 layout:
   line-cap: butt
-  line-join: bevel
+  line-join: miter
 paint:
-  line-color: '#706048'
+  line-color: '#504028'
   line-width:
     - interpolate
     - - exponential
       - 0.9
     - - zoom
     - 6
-    - 1
+    - 1.5
     - 12
-    - 2
+    - 3
     - 14
-    - 5
+    - 7
     - 16
-    - 14
     - 18
-    - 22
+    - 18
+    - 26
     - 20
-    - 150
+    - 160

@@ -71,21 +71,25 @@
       "source": "geolonia",
       "source-layer": "water",
       "minzoom": 10,
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "miter"
+      },
       "paint": {
-        "line-color": "#205090",
+        "line-color": "#183060",
         "line-width": {
           "stops": [
             [
               5,
-              1
+              1.5
             ],
             [
               10,
-              2
+              2.5
             ],
             [
               15,
-              3
+              4
             ]
           ]
         }
@@ -141,22 +145,22 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "park",
-      "minzoom": 13,
+      "minzoom": 12,
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#388820",
+        "line-color": "#2a6818",
         "line-width": {
           "stops": [
             [
               10,
-              1
+              1.5
             ],
             [
               15,
-              2
+              3
             ]
           ]
         }
@@ -308,10 +312,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#908068",
+        "line-color": "#705838",
         "line-width": [
           "interpolate",
           [
@@ -323,11 +327,11 @@
           13.5,
           0,
           14,
-          4,
+          5,
           16,
-          10,
+          12,
           20,
-          20
+          22
         ]
       }
     },
@@ -356,10 +360,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#706048",
+        "line-color": "#504028",
         "line-width": [
           "interpolate",
           [
@@ -370,17 +374,17 @@
             "zoom"
           ],
           6,
-          1,
+          1.5,
           12,
-          2,
+          3,
           14,
-          5,
+          7,
           16,
-          14,
           18,
-          22,
+          18,
+          26,
           20,
-          150
+          160
         ]
       }
     },
@@ -411,10 +415,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#987818",
+        "line-color": "#785010",
         "line-width": [
           "interpolate",
           [
@@ -425,17 +429,17 @@
             "zoom"
           ],
           5,
-          1,
+          1.5,
           6,
-          1,
+          1.5,
           14,
-          5,
+          7,
           16,
-          14,
           18,
-          22,
+          18,
+          26,
           20,
-          150
+          160
         ]
       }
     },
@@ -763,10 +767,10 @@
       ],
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#584828",
+        "line-color": "#403018",
         "line-width": [
           "interpolate",
           [
@@ -777,17 +781,17 @@
             "zoom"
           ],
           6,
-          1,
+          1.5,
           12,
-          2.5,
+          3.5,
           14,
-          6,
+          8,
           16,
-          16,
-          18,
-          24,
           20,
-          150
+          18,
+          28,
+          20,
+          160
         ]
       }
     },
@@ -875,26 +879,26 @@
       "type": "line",
       "source": "geolonia",
       "source-layer": "building",
-      "minzoom": 15,
+      "minzoom": 14,
       "layout": {
         "line-cap": "butt",
-        "line-join": "bevel"
+        "line-join": "miter"
       },
       "paint": {
-        "line-color": "#804820",
+        "line-color": "#603018",
         "line-width": {
           "stops": [
             [
               14,
-              1
-            ],
-            [
-              16,
               1.5
             ],
             [
+              16,
+              2.5
+            ],
+            [
               18,
-              2
+              3.5
             ]
           ]
         },
@@ -902,14 +906,10 @@
           "stops": [
             [
               14,
-              0
+              0.6
             ],
             [
               15,
-              0.8
-            ],
-            [
-              16,
               1
             ]
           ]

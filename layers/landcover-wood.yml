@@ -1,0 +1,11 @@
+id: landcover-wood
+type: fill
+source: geolonia
+source-layer: landcover
+minzoom: 11
+filter:
+  - ==
+  - class
+  - wood
+paint:
+  fill-pattern: pattern-forest

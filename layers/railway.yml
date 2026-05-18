@@ -1,0 +1,25 @@
+id: railway
+type: line
+source: geolonia
+source-layer: transportation
+minzoom: 11
+filter:
+  - all
+  - - ==
+    - class
+    - rail
+  - - '!has'
+    - service
+layout:
+  line-cap: butt
+  line-join: bevel
+paint:
+  line-color: '#484038'
+  line-width:
+    stops:
+      - - 10
+        - 1
+      - - 14
+        - 2
+      - - 18
+        - 3

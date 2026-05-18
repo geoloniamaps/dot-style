@@ -1,0 +1,11 @@
+id: landcover-grass
+type: fill
+source: geolonia
+source-layer: landcover
+minzoom: 11
+filter:
+  - ==
+  - class
+  - grass
+paint:
+  fill-pattern: pattern-grass

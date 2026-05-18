@@ -1,0 +1,12 @@
+id: highway-area
+type: fill
+source: geolonia
+source-layer: transportation
+minzoom: 14
+filter:
+  - ==
+  - $type
+  - Polygon
+paint:
+  fill-pattern: pattern-road
+  fill-opacity: 0.9

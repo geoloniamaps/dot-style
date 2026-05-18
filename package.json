@@ -1,0 +1,15 @@
+{
+  "name": "dot-style",
+  "version": "1.0.0",
+  "description": "ドット絵風地図スタイル (Pixel art map style)",
+  "main": "style.json",
+  "scripts": {
+    "start": "charites serve style.yml",
+    "build": "charites build style.yml ./docs/style.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@unvt/charites": "^2.0.0"
+  }
+}

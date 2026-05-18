@@ -2,7 +2,7 @@ id: park-outline
 type: line
 source: geolonia
 source-layer: park
-minzoom: 12
+minzoom: 13
 layout:
   line-cap: butt
   line-join: miter
@@ -11,6 +11,6 @@ paint:
   line-width:
     stops:
       - - 10
-        - 1.5
+        - 0.5
       - - 15
-        - 3
+        - 1.5

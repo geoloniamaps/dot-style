@@ -2,7 +2,7 @@ id: building-outline
 type: line
 source: geolonia
 source-layer: building
-minzoom: 14
+minzoom: 15
 layout:
   line-cap: butt
   line-join: miter
@@ -10,15 +10,17 @@ paint:
   line-color: '#603018'
   line-width:
     stops:
-      - - 14
-        - 1.5
+      - - 15
+        - 0.8
       - - 16
-        - 2.5
+        - 1
       - - 18
-        - 3.5
+        - 1.5
   line-opacity:
     stops:
       - - 14
-        - 0.6
+        - 0
       - - 15
+        - 0.8
+      - - 16
         - 1

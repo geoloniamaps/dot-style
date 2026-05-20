@@ -3,8 +3,12 @@ name: Dot Style (ドット絵の地図)
 sources:
   geolonia:
     type: vector
-    url: https://tileserver.geolonia.com/v2_combined2/tiles.json?key=YOUR-API-KEY
-sprite: https://geoloniamaps.github.io/dot-style/sprite
+    url: https://osm.v2.tiles.geolonia.com/tiles.json?key=YOUR-API-KEY
+sprite:
+  - id: default
+    url: https://geoloniamaps.github.io/dot-style/sprite
+  - id: basic-v2
+    url: https://geoloniamaps.github.io/basic-v2/basic-v2
 glyphs: https://glyphs.geolonia.com/{fontstack}/{range}.pbf
 layers:
   # 背景（薄い緑・ゲームフィールド風）
@@ -47,6 +51,20 @@ layers:
   # ラベル
   - !!inc/file layers/water-name.yml
   - !!inc/file layers/road-name.yml
+  # POI
+  - !!inc/file layers/poi-worship.yml
+  - !!inc/file layers/poi-worship-primary.yml
+  - !!inc/file layers/poi-park.yml
+  - !!inc/file layers/poi-park-primary.yml
+  - !!inc/file layers/poi-z16.yml
+  - !!inc/file layers/poi-z16-primary.yml
+  - !!inc/file layers/poi-z15.yml
+  - !!inc/file layers/poi-z14.yml
+  - !!inc/file layers/poi-z12.yml
+  - !!inc/file layers/poi-railway.yml
+  - !!inc/file layers/poi-mountain.yml
+  - !!inc/file layers/poi-airport.yml
+  - !!inc/file layers/poi-airport-primary.yml
   # 地名ラベル（ピクセルアート風の太字）
   - !!inc/file layers/place-village.yml
   - !!inc/file layers/place-town.yml
